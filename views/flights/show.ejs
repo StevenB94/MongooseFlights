@@ -17,12 +17,12 @@
   action="/flights/<%= flight._id %>/destinations">
 
   <label>Date:</label>
-  <textarea name="airport"></textarea>
+  <input type='datetime-local' name='air'
   <label>Destination:</label>
   <select name="air">
     <option value="AUS">AUS</option>
     <option value="DFW">DFW</option>
-    <option value="DEN">DEN</option>
+    <option value="DEN" selected>DEN</option>
     <option value="LAX">LAX</option>
     <option value="SAN">SAN</option>
   </select>
